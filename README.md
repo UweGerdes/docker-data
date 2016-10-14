@@ -2,7 +2,7 @@
 
 At the moment this data container shares the directory `/var/www/htdocs`.
 
-This directory is used by `uwegerdes/php-fpm` and `uwegerdes/nginx`.
+This directory is used by `docker-php-fpm` and `docker-nginx`.
 
 ## Usage
 
