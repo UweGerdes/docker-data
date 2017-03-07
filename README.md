@@ -4,6 +4,14 @@ At the moment this data container shares the directory `/var/www/htdocs`.
 
 This directory is used by my docker images `uwegerdes/php-fpm` and `uwegerdes/nginx`.
 
+## Build
+
+Build the image with (mind the dot):
+
+```bash
+$ docker build -t uwegerdes/data .
+```
+
 ## Usage
 
 Make sure you have a htdocs directory in your current folder (`$(pwd)/htdocs`) or supply the absolute (not relative!) path to your desired web root:
