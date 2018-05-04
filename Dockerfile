@@ -1,3 +1,5 @@
+# data image to share directories
+
 FROM uwegerdes/baseimage
 MAINTAINER Uwe Gerdes <entwicklung@uwegerdes.de>
 
@@ -10,3 +12,4 @@ RUN mkdir -p ${WWW_ROOT}
 VOLUME [ "${WWW_ROOT}" ]
 
 CMD [ "true" ]
+

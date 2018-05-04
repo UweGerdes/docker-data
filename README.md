@@ -24,3 +24,4 @@ $ docker run \
 ```
 
 The command will create a container and exit. That is ok because only the volumes from the container will be used.
+
